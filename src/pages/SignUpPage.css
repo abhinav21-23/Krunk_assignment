@@ -1,0 +1,32 @@
+.sign-up-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+    156.72deg,
+    #e6eeff,
+    rgba(230, 238, 255, 0) 72.31%
+  );
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-91xl) 766px var(--padding-91xl) 780px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .sign-up-page {
+    padding-left: 390px;
+    padding-right: 383px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sign-up-page {
+    padding-left: 195px;
+    padding-right: 191px;
+    box-sizing: border-box;
+  }
+}
